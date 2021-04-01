@@ -6,9 +6,9 @@ import psycopg2
 import dj_database_url
 from mwt import MWT
 
-access_token = "432656055:AAH3_jLNQFpqNr8dZFXSYoAcZLEVF5jFvuM"
+access_token = ""
 bot = telebot.TeleBot(access_token)
-DATABASELINK = "postgres://adtvurxwqmfpfp:517b76d5ca5886c72947580769d88878444beb7ca54a99b52806ba3f5a457ae3@ec2-79-125-118-221.eu-west-1.compute.amazonaws.com:5432/df02ed0lrqf3n3"
+DATABASELINK = ""
 db_info = dj_database_url.config(default=DATABASELINK)
 
 
